@@ -18,10 +18,13 @@ header .container {
 
 header li {
     display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 header li a {
     color: #f5f6fa;
+    text-decoration: none;
 }
 
 .container {
@@ -36,7 +39,8 @@ header li a {
 }
 
 .articules article img {
-    height: 180px;
+    /*height: 180px;*/
+    width: 100%;
 }
 
 .articules article {
@@ -58,11 +62,13 @@ section h2,
 }
 
 .articules article a {
-    background-color: violet;
+    background-color: #009413;
     color: #fff;
     padding: 8px;
     display: inline-block;
     text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
 }
 
 .articules article a:hover {
@@ -86,3 +92,11 @@ section h2 {
     background-color: rgba(0, 255, 0, 0.1);
 }
 
+#economy {
+    background-color: #f8f590;
+
+}
+
+#economy .articules article a {
+    background-color: #ff9f1a;
+}
